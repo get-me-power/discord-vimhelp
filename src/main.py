@@ -1,7 +1,9 @@
-import discord
-import vimhelp
+import discord_client
+
+
+def main():
+    discord_client.discord_action()
 
 
 if __name__ == '__main__':
-    input_text = str(input())
-    vimhelp.vimhelp(input_text[0])
+    main()
