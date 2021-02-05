@@ -1,8 +1,6 @@
 // You can search the help of Vim.
 const {VimHelp} = require("vimhelp");
 const argv = process.argv[2];
-console.log("hoge");
-console.log(process.argv[2]);
 
 (async () => {
 let vimHelp = new VimHelp();
